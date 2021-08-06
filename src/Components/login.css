@@ -1,0 +1,36 @@
+.login_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_slogan{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    height: 56px;
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 28px;
+    vertical-align: middle;
+    z-index:0;
+    transition-duration: 167px;
+    font-size:20px;
+    color: rgba(49, 33, 33, 0.6);
+}
+button > img{
+    width: 50px;
+    height: 100%;
+}
+button:hover{
+    background-color:rgba(202, 207, 207, 0.25) ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.popuplist_container{
+    position: fixed;
+    top: 100px;
+    z-index: 106;
+    right: 1%;
+    padding: 10px;
+}
+.popup_content{
+    margin:0;
+}

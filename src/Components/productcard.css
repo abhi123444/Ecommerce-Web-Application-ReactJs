@@ -1,0 +1,149 @@
+.shopcard_container{
+     background: rgb(255, 255, 255) ;
+     border: 1px solid rgb(247, 242, 242);
+     display: flex;
+     flex-direction: column;
+     height: 300px;
+     width: 300px;
+     margin-top: 10px;
+     border-radius:4px;
+     overflow: hidden;
+ }
+ .shopcard_container:hover{
+    border: 1px solid rgba(0, 38, 252, 0.274);
+ }
+ .shopcard{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     width: 100%;
+ }
+ .card_img{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     height: 100%;
+     width: 100%;
+ }
+ .card_img >div{
+     width: 50px;
+     height: 50px;
+     z-index: 100;
+     position: absolute;
+     top: 0;
+     left: 0;
+     border-radius: 0 0 100% 0; 
+     pointer-events: none;
+     background-color:rgb(199, 163, 4);
+ }
+ .card_img > img {
+     max-height: 150px;
+     margin: auto;
+     top: 0;
+ }
+ .card_img > img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+ }
+ .card_containt{
+     padding: 10px;
+     padding-top: 0px;
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column;
+ }
+ .card_name{
+     font-size: 14px;
+     font-family: 'STIX Two Math', serif;
+     padding: 5px 5px 0px 0px;
+     margin: 5px 5px 0px 0px;
+     max-width: 100%;
+     max-height:100% ;
+ }
+ .card_name > a{
+     cursor: pointer;
+ }
+ .card_name > a:hover{
+     text-decoration: underline;
+     text-decoration-color: rgb(149, 151, 151);
+     color: rgb(50, 52, 53);
+ }
+ .card_footer{
+     display: flex;
+ }
+ .card_category{
+     font-size: 12px;
+     top: 0%;
+     color: rgb(50, 52, 53);
+ }
+ .price{
+     display: flex;
+     flex-direction: row;
+ }
+ .original_price{
+     color: rgb(44, 46, 43);
+     font-size: 14px;
+     text-align:justify;
+     font-weight: 600;
+     padding: 2px;
+     text-decoration: line-through;
+ }
+ 
+ .promo_price{
+     color: rgb(6, 138, 24);
+     padding: 1px;
+     font-size: 20px;
+     font-weight: 600;
+ }
+ .rating{
+     display: flex;
+     flex-direction: row;
+ }
+ .star_icon{
+     color: rgb(243, 227, 7);
+ }
+ .total_sales{
+     font-size: 12px;
+     padding-top: 5px;
+     color: rgb(87, 85, 83);
+ }
+ .card_footer_button{
+     float:inline-start;
+     display: flex;
+     flex-direction: row;
+ }
+ .button_buy{
+     background-color: white;
+     width: 50px;
+     height: 40px;
+     margin: 10px 10px 0px 10px;
+     font-size: 14px;
+     font-weight: 500;
+     border: 1px solid rgb(194, 189, 189);
+     border-radius: 5px 5px 5px 0px;
+     padding: 0px 10px 0px 10px;
+ }
+ .button_buy:hover{
+     border-color: rgb(233, 14, 149);
+     color:rgb(233, 14, 149);
+     background-color: rgb(255, 255, 255);
+     cursor: pointer;
+ }
+ .button_cart{
+     background-color: white;
+     width: 50px;
+     height: 40px;
+     margin: 10px 0px 0px 0px;
+     font-size: 14px;
+     font-weight: 500;
+     border: 1px solid rgb(194, 189, 189);
+     border-radius: 5px 0px 5px 5px;
+     padding: 0px 10px 0px 10px; 
+ }
+ .button_cart:hover{
+     border-color: rgb(4, 196, 202);
+     color:rgb(4, 196, 202);
+     cursor: pointer;
+ }
+ 
+ 
